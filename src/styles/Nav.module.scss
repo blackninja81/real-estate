@@ -1,13 +1,16 @@
 .nav {
-    // width: 100vw;
     z-index: 1001;
     display: flex;
-    // position: fixed;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    right: 0;
     text-align: center;
     align-items: center;
     justify-content: space-around;
     background-color: rgb(62, 45, 158);
-    border-radius: 2rem;
+    // border-radius: 2rem;
     
     ul {
       display: flex;
@@ -69,18 +72,14 @@
       top: 15vh;
       right: 0;
       height: 90vh;
-      width: 93vw;
+      width: 95vw;
       color: black;
+      border-radius: 2rem;
       position: fixed;
       flex-direction: column;
       transition: 0.5s ease-in;
       transform: translateX(100%);
-      /* From https://css.glass */
-      background: rgba(0, 0, 0, 0.37);
-      border-radius: 16px;
-      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-      backdrop-filter: blur(20px);
-      -webkit-backdrop-filter: blur(20px);
+      background-color: rgb(62, 45, 158);
     }
     .nav__item{
       display: flex;
