@@ -49,7 +49,7 @@ const Footer2 = () => {
           </div>
 
           <div className={footerStyle.row}>
-            INFERNO Copyright © {new Date().getFullYear() } Inferno - All rights reserved 
+            Copyright © {new Date().getFullYear() } Inferno - All rights reserved 
           </div>
         </div>
       </footer>

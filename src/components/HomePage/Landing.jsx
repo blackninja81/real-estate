@@ -1,10 +1,9 @@
-import React from 'react'
-import Image from 'next/image'
+import React from "react";
+import Image from "next/image";
+import HomeStyle from "../../styles/Home.module.scss";
 
 const Landing = () => {
-  return (
-    <div>Landing</div>
-  )
-}
+  return <div className={HomeStyle.landing}><h1>Landing</h1></div>;
+};
 
-export default Landing
+export default Landing;
