@@ -1,52 +1,102 @@
-.landing{
-    color: white;
-    height: 100vh;
-    width: 100vw;
-    left: 0;
-    display: flex;
-    align-items: center;
-    background-size: cover;
+.mainHome{
+  overflow: hidden;
+}
+.landing {
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  color: white;
+  position: relative;
+  text-align: center;
+  isolation: isolate;
+  align-items: center;
+  background-size: cover;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url(../../public/Assets/landing.jpg);
+  transition: .7s;
+  &:before {
+    opacity: 0.4;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    opacity: 0.5;
+    background-color: black;
+  }
+}
+.landing1 {
+  color: white;
+  height: 15vh;
+  width: 100vw;
+  left: 0;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  justify-content: center;
+  background-repeat: no-repeat;
+  position: relative;
+  isolation: isolate;
+  background-attachment: fixed;
+  background-image: url(../../public/Assets/landing.jpg);
+  &:before {
+    opacity: 0.4;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    opacity: 0.5;
+    background-color: black;
+  }
+}
+.top_pick {
+  text-align: center;
+  h2{
+    margin: 3rem 0;
+  }
+}
+.propertyCard {
+  margin: 3rem 1rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 2rem;
+  .price{
+    margin-top: -10px;
+  }
+  .card_footer {
+    margin-top: -2rem;
+    padding: 1rem;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     justify-content: center;
-    background-repeat: no-repeat;
-    position: relative;
-    isolation: isolate;
-    background-attachment: fixed;
-    background-image: url(../../public/Assets/landing.jpg);
-    &:before{
-        opacity: .4;
+    .bed {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      border-radius: 2rem;
+      border: 1px;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+      border-width: 1px;
+      border-color: black;
+      background-color: rgb(227, 247, 253);
+      transition: .5s;
+      p {
+        padding: 2px 2px;
+      }
+      &:hover{
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+      }
     }
-    &:after{
-        content: '';
-        position: absolute;
-        z-index: -1;
-        inset: 0;
-        opacity: .5;
-        background-color: black;
-    }
-}
-.top_pick{
-    text-align: center;
-}
-.propertyCard{
-    margin-bottom: 1rem;
-    border: 1px;
-    border-width: 1px;
-    border-color: black;
-    background-color: grey;
-    border-radius: 2rem;
-
-    .card_footer{
-        padding: 1rem;
-        display: flex;
-        justify-content: space-around;
-        .bed{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: row;
-            p{
-                padding: 0 10px;
-            }
-        }
-    }
+  }
+  &:hover{
+    transition: .7s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
 }
