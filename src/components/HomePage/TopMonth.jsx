@@ -14,9 +14,13 @@ const TopMonth = () => {
           options={{
             rewind: true,
             gap: "1rem",
-            perPage: 3,
+            pagination:'none',
+            perPage: 4,
             
             breakpoints: {
+              1440:{
+                perPage: 3,
+              },
               640: {
                   perPage: 1,
               },

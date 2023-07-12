@@ -5,6 +5,8 @@ import Landing from "@/components/HomePage/Landing";
 import TopMonth from "@/components/HomePage/TopMonth";
 import Sell from "@/components/HomePage/Sell";
 import Rent from "@/components/HomePage/Rent";
+import RentalLanding from "@/components/HomePage/RentalLanding";
+import SaleLanding from "@/components/HomePage/SaleLanding";
 
 export const metadata = {
   title: "JIJI rentals",
@@ -17,7 +19,9 @@ export default function Home() {
       <Layout>
         <Landing />
         <TopMonth />
+        <RentalLanding />
         <Rent />
+        <SaleLanding />
         <Sell />
       </Layout>
     </main>

@@ -34,14 +34,14 @@ export const NavLinks = [
 export const PropertyDetails = [
   {
     id: 1,
-    name: "ngong racecourse",
+    name: "ngong race Course",
     location: "Nairobi",
     price: 20000,
     size: "400sqm",
     bedrooms: 4,
     bathrooms: 2,
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quibusdam officiis vero, labore accusantium error, quod necessitatibus ducimus repellendus quidem quo. Eveniet cumque voluptates unde",
+    // description:
+    //   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quibusdam officiis vero, labore accusantium error, quod necessitatibus ducimus repellendus quidem quo. Eveniet cumque voluptates unde",
     amenities: ["dstv", "24hr security", "borehole"],
   },
   {
@@ -52,8 +52,8 @@ export const PropertyDetails = [
     size: "400sqm",
     bedrooms: 7,
     bathrooms: 5,
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quibusdam officiis vero, labore accusantium error, quod necessitatibus ducimus repellendus quidem quo. Eveniet cumque voluptates unde",
+    // description:
+    //   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quibusdam officiis vero, labore accusantium error, quod necessitatibus ducimus repellendus quidem quo. Eveniet cumque voluptates unde",
     amenities: ["dstv", "24hr security", "borehole"],
   },
   {
@@ -64,8 +64,8 @@ export const PropertyDetails = [
     size: "400sqm",
     bedrooms: 4,
     bathrooms: 2,
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quibusdam officiis vero, labore accusantium error, quod necessitatibus ducimus repellendus quidem quo. Eveniet cumque voluptates unde",
+    // description:
+    //   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quibusdam officiis vero, labore accusantium error, quod necessitatibus ducimus repellendus quidem quo. Eveniet cumque voluptates unde",
     amenities: ["dstv", "24hr security", "borehole"],
   },
   {
@@ -76,8 +76,8 @@ export const PropertyDetails = [
     size: "400sqm",
     bedrooms: 4,
     bathrooms: 2,
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quibusdam officiis vero, labore accusantium error, quod necessitatibus ducimus repellendus quidem quo. Eveniet cumque voluptates unde",
+    // description:
+    //   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quibusdam officiis vero, labore accusantium error, quod necessitatibus ducimus repellendus quidem quo. Eveniet cumque voluptates unde",
     amenities: ["dstv", "24hr security", "borehole"],
   },
   {
@@ -88,8 +88,9 @@ export const PropertyDetails = [
     size: "400sqm",
     bedrooms: 4,
     bathrooms: 2,
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quibusdam officiis vero, labore accusantium error, quod necessitatibus ducimus repellendus quidem quo. Eveniet cumque voluptates unde",
+    // description:
+    //   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quibusdam officiis vero, labore accusantium error, quod necessitatibus ducimus repellendus quidem quo. Eveniet cumque voluptates unde",
     amenities: ["dstv", "24hr security", "borehole"],
   },
+  
 ];
