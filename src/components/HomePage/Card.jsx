@@ -16,7 +16,6 @@ import {
 import "@splidejs/react-splide/css";
 import Image from "next/image";
 import HomeStyle from "@/styles/Home.module.scss";
-import { Splide, SplideSlide } from "@splidejs/react-splide";
 
 const PropertyCard = ({ property }) => {
   return (

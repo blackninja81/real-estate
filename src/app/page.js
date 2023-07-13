@@ -1,12 +1,13 @@
 import Image from "next/image";
-import HomeStyle from "../styles/Home.module.scss";
-import Layout from "@/components/HomePage/Layout";
-import Landing from "@/components/HomePage/Landing";
-import TopMonth from "@/components/HomePage/TopMonth";
 import Sell from "@/components/HomePage/Sell";
 import Rent from "@/components/HomePage/Rent";
-import RentalLanding from "@/components/HomePage/RentalLanding";
+import Layout from "@/components/HomePage/Layout";
+import HomeStyle from "../styles/Home.module.scss";
+import Landing from "@/components/HomePage/Landing";
+import TopMonth from "@/components/HomePage/TopMonth";
+import ListWithUs from "@/components/HomePage/ListWithUs";
 import SaleLanding from "@/components/HomePage/SaleLanding";
+import RentalLanding from "@/components/HomePage/RentalLanding";
 
 export const metadata = {
   title: "JIJI rentals",
@@ -23,6 +24,7 @@ export default function Home() {
         <Rent />
         <SaleLanding />
         <Sell />
+        <ListWithUs/>
       </Layout>
     </main>
   );
