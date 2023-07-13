@@ -1,5 +1,27 @@
+@font-face {
+  font-family: 'EntezareZohoor2';
+  src: url('../../public//Fonts/SpaceGrotesk-Light.ttf');
+  font-weight: normal;
+  font-style: normal;
+  
+}
+@font-face {
+  font-family: 'EntezareZohoor1';
+  src: url('../../public//Fonts/Crescent\ Slim.otf');
+  font-weight: normal;
+  font-style: normal;
+  
+}
+
 .mainHome{
   overflow: hidden;
+  font-family: 'EntezareZohoor2';
+  h1{
+    font-family: 'EntezareZohoor1';  
+    }
+  h2{
+  font-family: 'EntezareZohoor1';  
+  }
 }
 .landing {
   left: 0;
@@ -98,5 +120,71 @@
   &:hover{
     transition: .7s;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+}
+.listpage{
+  text-align: center;
+  h1{
+    margin: 3rem 0;
+  }
+}
+.listwithus{
+  left: 0;
+  margin-left: -1.5rem;
+  width: 100vw;
+  display: grid;
+  padding: 1rem;
+  color: white;
+  position: relative;
+  text-align: center;
+  isolation: isolate;
+  align-items: center;
+  background-size: cover;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url(../../public/Assets/landing.jpg);
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  transition: .7s;
+  &:before {
+    opacity: 0.4;
+  }
+  &:after {
+    content: "";
+    inset: 0;
+    z-index: -1;
+    opacity: 0.5;
+    position: absolute;
+    background-color: black;
+  }
+  .text{
+    padding: 20px;
+    display: flex;
+    color: black;
+    overflow: hidden;
+    margin:3rem 1rem;
+    align-items: center;
+    border-radius: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+   
+  }
+  .button{
+    margin: 2rem;
+    border: none;
+    width: 200px;
+    padding: 10px;
+    transition: .7s;
+    border-radius: 2rem;
+    background-color: rgb(227, 247, 253);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    &:hover{
+      transition: .7s;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    }
+  }
+  h3{
+    padding: 0 15rem;
   }
 }
