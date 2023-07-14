@@ -8,11 +8,7 @@ import {
   Card,
   Box,
   CardBody,
-  Divider,
-  CardFooter,
-  ChakraProvider,
-  Heading,
-  Text,
+  CardFooter
 } from "@chakra-ui/react";
 import "@splidejs/react-splide/css";
 import Image from "next/image";

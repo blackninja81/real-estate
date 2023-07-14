@@ -7,6 +7,7 @@ import Landing from "@/components/HomePage/Landing";
 import TopMonth from "@/components/HomePage/TopMonth";
 import ListWithUs from "@/components/HomePage/ListWithUs";
 import SaleLanding from "@/components/HomePage/SaleLanding";
+import PartnerSlider from "@/components/General/PartnerSlider";
 import RentalLanding from "@/components/HomePage/RentalLanding";
 
 export const metadata = {
@@ -25,6 +26,7 @@ export default function Home() {
         <SaleLanding />
         <Sell />
         <ListWithUs/>
+        <PartnerSlider/>
       </Layout>
     </main>
   );
