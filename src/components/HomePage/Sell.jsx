@@ -14,6 +14,7 @@ const Sell = () => {
           options={{
             rewind: true,
             gap: "1rem",
+            type: 'loop',
             pagination:'none',
             perPage: 4,
             autoScroll: {
