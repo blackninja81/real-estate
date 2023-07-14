@@ -19,7 +19,7 @@ const ListWithUs = () => {
     <div className={HomeStyle.listwithus}>
       <Card className={HomeStyle.text}>
         <CardBody>
-            <Image src={buy} height={150} width={150}/>
+            <Image src={buy} height={150} width={150} alt="image alt"/>
         <h2>Buy</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
@@ -32,7 +32,7 @@ const ListWithUs = () => {
       </Card>
       <Card className={HomeStyle.text}>
         <CardBody>
-        <Image src={rent} height={150} width={150}/>
+        <Image src={rent} height={150} width={150} alt="image alt"/>
             <h2>Rent</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
@@ -46,7 +46,7 @@ const ListWithUs = () => {
       </Card>
       <Card className={HomeStyle.text}>
         <CardBody>
-        <Image src={sell} height={150} width={150}/>
+        <Image src={sell} height={150} width={150} alt='property-name'/>
         <h2>Sell</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum

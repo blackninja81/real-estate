@@ -31,6 +31,14 @@ export const NavLinks = [
   },
 ];
 
+import house1 from '../../public/Assets/house1.jpg'
+import house2 from '../../public/Assets/house2.jpg'
+import house3 from '../../public/Assets/house3.jpg'
+import house4 from '../../public/Assets/house4.jpg'
+import house5 from '../../public/Assets/house5.jpg'
+import house6 from '../../public/Assets/house6.jpg'
+import house7 from '../../public/Assets/house7.jpg'
+
 export const PropertyDetails = [
   {
     id: 1,
@@ -40,8 +48,7 @@ export const PropertyDetails = [
     size: "400sqm",
     bedrooms: 4,
     bathrooms: 2,
-    // description:
-    //   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quibusdam officiis vero, labore accusantium error, quod necessitatibus ducimus repellendus quidem quo. Eveniet cumque voluptates unde",
+    thumbnail: house1,
     amenities: ["dstv", "24hr security", "borehole"],
   },
   {
@@ -52,8 +59,7 @@ export const PropertyDetails = [
     size: "400sqm",
     bedrooms: 7,
     bathrooms: 5,
-    // description:
-    //   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quibusdam officiis vero, labore accusantium error, quod necessitatibus ducimus repellendus quidem quo. Eveniet cumque voluptates unde",
+    thumbnail: house2,
     amenities: ["dstv", "24hr security", "borehole"],
   },
   {
@@ -64,8 +70,7 @@ export const PropertyDetails = [
     size: "400sqm",
     bedrooms: 4,
     bathrooms: 2,
-    // description:
-    //   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quibusdam officiis vero, labore accusantium error, quod necessitatibus ducimus repellendus quidem quo. Eveniet cumque voluptates unde",
+    thumbnail: house3,
     amenities: ["dstv", "24hr security", "borehole"],
   },
   {
@@ -75,9 +80,8 @@ export const PropertyDetails = [
     price: 200000,
     size: "400sqm",
     bedrooms: 4,
+    thumbnail: house4,
     bathrooms: 2,
-    // description:
-    //   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quibusdam officiis vero, labore accusantium error, quod necessitatibus ducimus repellendus quidem quo. Eveniet cumque voluptates unde",
     amenities: ["dstv", "24hr security", "borehole"],
   },
   {
@@ -88,8 +92,7 @@ export const PropertyDetails = [
     size: "400sqm",
     bedrooms: 4,
     bathrooms: 2,
-    // description:
-    //   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quibusdam officiis vero, labore accusantium error, quod necessitatibus ducimus repellendus quidem quo. Eveniet cumque voluptates unde",
+    thumbnail: house5,
     amenities: ["dstv", "24hr security", "borehole"],
   },
   
