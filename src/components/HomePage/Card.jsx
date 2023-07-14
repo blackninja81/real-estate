@@ -2,14 +2,15 @@
 
 import React from "react";
 import { FaRuler, FaBed, FaShower } from "react-icons/fa";
-import cimage from "../../../public/Assets/landing.jpg";
+import { Skeleton, SkeletonCircle, SkeletonText } from '@chakra-ui/react'
+
 import {
   Card,
-  Center,
+  Box,
   CardBody,
   Divider,
   CardFooter,
-  Stack,
+  ChakraProvider,
   Heading,
   Text,
 } from "@chakra-ui/react";
@@ -20,15 +21,17 @@ import HomeStyle from "@/styles/Home.module.scss";
 const PropertyCard = ({ property }) => {
   return (
     <div className={HomeStyle.propertyCard}>
-      <Card>
+      <Box>
+      <Card key={property.id}>
         <CardBody>
+          <Skeleton height='200px' isLoaded>
           <Image
-            src={cimage}
+            src={property.thumbnail}
             height={150}
             width={250}
-            alt="Green double couch with wooden legs"
-            borderRadius="lg"
+            alt={property.name}
           />
+          </Skeleton>
             <h3>{property.name}</h3>
             
             <div className={HomeStyle.price}>
@@ -39,7 +42,6 @@ const PropertyCard = ({ property }) => {
               </div>
             
         </CardBody>
-        <Divider />
         <CardFooter className={HomeStyle.card_footer}>
           <div className={HomeStyle.bed}>
             <FaBed />
@@ -59,6 +61,7 @@ const PropertyCard = ({ property }) => {
           </div>
         </CardFooter>
       </Card>
+      </Box>
     </div>
   );
 };

@@ -32,7 +32,7 @@ const TopMonth = () => {
           }}
           >
           {PropertyDetails.map(property => (
-          <SplideSlide>
+          <SplideSlide key={property.id}>
             <PropertyCard key={property.id} property={property}/>
             </SplideSlide>
             ))}
