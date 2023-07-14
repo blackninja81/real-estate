@@ -13,7 +13,7 @@ export const NavLinks = [
   },
   {
     id: 3,
-    title: "Portfolio",
+    title: "Properties",
     link: "./",
     Alt: "homepage link",
   },
@@ -97,3 +97,56 @@ export const PropertyDetails = [
   },
   
 ];
+
+import logo1 from '../../public/Assets/safaricom.png';
+import logo2 from '../../public/Assets/jumia.png';
+import logo3 from '../../public/Assets/equity.png';
+import logo4 from '../../public/Assets/kcb.jpg';
+import logo5 from '../../public/Assets/Airtel.png';
+import logo6 from '../../public/Assets/Carrefour.png';
+import logo7 from '../../public/Assets/orange.jpg';
+
+export const Partners = [
+  {
+    id:1,
+    name:logo1,
+    thumbnail:"Safaricom",
+    link:"www.google.com"
+  },
+  {
+    id:2,
+    name:logo2,
+    thumbnail:"Jumia",
+    link:"www.google.com"
+  },
+  {
+    id:3,
+    name:logo3,
+    thumbnail:"equity bank",
+    link:"www.google.com"
+  },
+  {
+    id:4,
+    name:logo4,
+    thumbnail:"kcb bank",
+    link:"www.google.com"
+  },
+  {
+    id:5,
+    name:logo5,
+    thumbnail:"airtel",
+    link:"www.google.com"
+  },
+  {
+    id:6,
+    name:logo6,
+    thumbnail:"Carrefour",
+    link:"www.google.com"
+  },
+  {
+    id:7,
+    name:logo7,
+    thumbnail:"Orange",
+    link:"www.google.com"
+  }
+]
