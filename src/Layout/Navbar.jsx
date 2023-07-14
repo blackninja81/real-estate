@@ -13,8 +13,8 @@ import Link from "next/link.js";
 
 const Navbar1 = () => {
   //   const { theme, toggleTheme } = useContext();
-  const [active, setActive] = useState("nav__menu");
-  const [icon, setIcon] = useState("nav__toggler");
+  const [active, setActive] = useState(Navstyle.nav__menu);
+  const [icon, setIcon] = useState(Navstyle.nav__toggler);
 
   const navToggle = () => {
     if (active === Navstyle.nav__menu) {      
