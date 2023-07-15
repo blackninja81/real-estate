@@ -14,15 +14,8 @@ const Rent = () => {
           options={{
             rewind: true,
             gap: "1rem",
-            type: 'loop',
             pagination:'none',
             perPage: 4,
-            autoScroll: {
-              pauseOnHover: false,
-              pauseOnFocus: true,
-              rewind: false,
-              speed: 1
-            },
             
             breakpoints: {
               1440:{
@@ -37,7 +30,6 @@ const Rent = () => {
             }
 
           }}
-          extensions={{ AutoScroll }}
           >
           {PropertyDetails.map(property => (
           <SplideSlide key={property.id}>

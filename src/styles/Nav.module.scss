@@ -9,7 +9,14 @@
     text-align: center;
     align-items: center;
     justify-content: space-around;
-    background-color: rgb(227, 247, 253);
+    // background-color: rgb(227, 247, 253);
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.18);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(15.4px);
+-webkit-backdrop-filter: blur(15.4px);
+border: 1px solid rgba(255, 255, 255, 0.01);
 
     // border-radius: 2rem;
     
@@ -80,7 +87,14 @@
       flex-direction: column;
       transition: 0.5s ease-in;
       transform: translateX(100%);
-      background-color: rgb(227, 247, 253);
+      // background-color: rgb(227, 247, 253);
+      /* From https://css.glass */
+background: rgba(255, 255, 255, 0.18);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(15.4px);
+-webkit-backdrop-filter: blur(15.4px);
+border: 1px solid rgba(255, 255, 255, 0.01);
     }
     .nav__item{
       display: flex;
